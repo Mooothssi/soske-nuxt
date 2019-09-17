@@ -2,18 +2,18 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _38e18d72 = () => interopDefault(import('../pages/leaderboard/index.vue' /* webpackChunkName: "pages/leaderboard/index" */))
-const _7d56d6f0 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _7c5a0340 = () => interopDefault(import('../pages/problems/index.vue' /* webpackChunkName: "pages/problems/index" */))
-const _40bed9ee = () => interopDefault(import('../pages/recover/index.vue' /* webpackChunkName: "pages/recover/index" */))
-const _accafd22 = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
-const _85638b00 = () => interopDefault(import('../pages/howto/setup.vue' /* webpackChunkName: "pages/howto/setup" */))
-const _6934609a = () => interopDefault(import('../pages/problems/submit.vue' /* webpackChunkName: "pages/problems/submit" */))
-const _2cfd702a = () => interopDefault(import('../pages/recover/reset.vue' /* webpackChunkName: "pages/recover/reset" */))
-const _9f3029c6 = () => interopDefault(import('../pages/register/confirm.vue' /* webpackChunkName: "pages/register/confirm" */))
-const _5356928e = () => interopDefault(import('../pages/problems/_category/index.vue' /* webpackChunkName: "pages/problems/_category/index" */))
-const _e55824ba = () => interopDefault(import('../pages/problems/_category/_task/index.vue' /* webpackChunkName: "pages/problems/_category/_task/index" */))
-const _98a1984e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4aa02a40 = () => interopDefault(import('../pages/leaderboard/index.vue' /* webpackChunkName: "pages/leaderboard/index" */))
+const _a4eb33ee = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _92393f72 = () => interopDefault(import('../pages/problems/index.vue' /* webpackChunkName: "pages/problems/index" */))
+const _42a24007 = () => interopDefault(import('../pages/recover/index.vue' /* webpackChunkName: "pages/recover/index" */))
+const _37b84314 = () => interopDefault(import('../pages/register/index.vue' /* webpackChunkName: "pages/register/index" */))
+const _fe535a4e = () => interopDefault(import('../pages/howto/setup.vue' /* webpackChunkName: "pages/howto/setup" */))
+const _7fd6a473 = () => interopDefault(import('../pages/problems/submit.vue' /* webpackChunkName: "pages/problems/submit" */))
+const _2936a3f8 = () => interopDefault(import('../pages/recover/reset.vue' /* webpackChunkName: "pages/recover/reset" */))
+const _6e0e2264 = () => interopDefault(import('../pages/register/confirm.vue' /* webpackChunkName: "pages/register/confirm" */))
+const _445eda56 = () => interopDefault(import('../pages/problems/_category/index.vue' /* webpackChunkName: "pages/problems/_category/index" */))
+const _ffaf46ac = () => interopDefault(import('../pages/problems/_category/_task/index.vue' /* webpackChunkName: "pages/problems/_category/_task/index" */))
+const _383a7a1c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -91,51 +91,51 @@ export function createRouter() {
 
     routes: [{
       path: "/leaderboard",
-      component: _38e18d72,
+      component: _4aa02a40,
       name: "leaderboard"
     }, {
       path: "/login",
-      component: _7d56d6f0,
+      component: _a4eb33ee,
       name: "login"
     }, {
       path: "/problems",
-      component: _7c5a0340,
+      component: _92393f72,
       name: "problems"
     }, {
       path: "/recover",
-      component: _40bed9ee,
+      component: _42a24007,
       name: "recover"
     }, {
       path: "/register",
-      component: _accafd22,
+      component: _37b84314,
       name: "register"
     }, {
       path: "/howto/setup",
-      component: _85638b00,
+      component: _fe535a4e,
       name: "howto-setup"
     }, {
       path: "/problems/submit",
-      component: _6934609a,
+      component: _7fd6a473,
       name: "problems-submit"
     }, {
       path: "/recover/reset",
-      component: _2cfd702a,
+      component: _2936a3f8,
       name: "recover-reset"
     }, {
       path: "/register/confirm",
-      component: _9f3029c6,
+      component: _6e0e2264,
       name: "register-confirm"
     }, {
       path: "/problems/:category",
-      component: _5356928e,
+      component: _445eda56,
       name: "problems-category"
     }, {
       path: "/problems/:category/:task",
-      component: _e55824ba,
+      component: _ffaf46ac,
       name: "problems-category-task"
     }, {
       path: "/",
-      component: _98a1984e,
+      component: _383a7a1c,
       name: "index"
     }],
 

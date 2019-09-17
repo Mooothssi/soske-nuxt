@@ -1,3 +1,4 @@
+const config = require('./config')
 
 module.exports = {
   mode: 'universal',
@@ -60,8 +61,8 @@ module.exports = {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: 'https://soske.silaalang.org/v1', // 'http://172.17.0.1:3000',
-    browserBaseURL: 'https://soske.silaalang.org/v1' // : 'http://localhost:3000' http://soske.silaalang.org:3000
+    baseURL: config.api_url,//'https://soske.silaalang.org/v1', // 'http://172.17.0.1:3000',
+    browserBaseURL: config.api_browser_url//'https://soske.silaalang.org/v1' // : 'http://localhost:3000' http://soske.silaalang.org:3000
   },
 
   bootstrapVue: {
