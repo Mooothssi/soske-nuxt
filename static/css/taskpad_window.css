@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+.wte-title {
+  color: #fff;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 3rem;
+}
+
+.edit-window {
+  width: 100%;
+  min-height: 400px;
+  padding-bottom: 3px;
+  background: #fafbfc;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.edit-window-dark {
+  background: #282c34;
+}
+
+.window-border {
+  position: relative;
+  display: flex;
+  top: 0;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #E6E9ED;
+}
+
+.window-border-dark {
+  background: #2c313a;
+}
+
+.window-border .language {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 15px;
+  text-align: right !important;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  text-align: center;
+  border: none;
+}
+
+.window-border .language select {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  text-align: center;
+  height: 30px;
+  border: none;
+}
+
+.window-border .close, .window-border .minimize, .window-border .maximize {
+  top: 17px;
+  left: 10px;
+}
+.window-border .close {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 28px;
+  /*background: #ED5565;*/
+  background: #ED254E;
+}
+.window-border .minimize {
+  position: relative;
+  margin-left: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 28px;
+  /* background: #FFCE54; */
+  background: rgb(192, 166, 64);
+}
+.window-border .maximize {
+  position: relative;
+  margin-left: 8px;
+  margin-right: 16px;
+  width: 15px;
+  height: 15px;
+  border-radius: 28px;
+  /*background: #48CFAD;*/
+  background: rgb(74, 139, 58);
+}
+
+.window-border .text-tab {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  bottom: 0 !important;
+  margin-left: 35px;
+  padding-bottom: 8px;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 8px;
+  color: rgb(82, 82, 82);
+  border-bottom: 3px solid rgb(82, 82, 82);
+  cursor: pointer;
+  /*background: #48CFAD;*/
+}
+
+.window-border .current {
+  color: rgb(192, 166, 64);
+  border-bottom-color: rgb(192, 166, 64);
+  /*background: #48CFAD;*/
+}
+
+.window-border .currentBlue {
+  color: #17a2b8;
+  border-bottom-color: #17a2b8;
+  /*background: #48CFAD;*/
+}
+
+.box-outlined {
+  color: rgb(82, 82, 82);
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 7px;
+}
+
+.box-outlined hr {
+  color: rgb(82, 82, 82);
+  border: 0.5px solid rgb(82, 82, 82);
+  border-spacing: 15px;
+}
